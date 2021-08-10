@@ -1,0 +1,26 @@
+<form action="index.html" (ngSubmit) = "login()">
+    <img src = "/assets/images/logo1.jpg"  class="logo">
+<br> <br>
+<h2><b> Login </b></h2>
+ 
+<div class="cal1">
+    <label for="Email"> Email : </label> <br>
+    <input type="email" [(ngModel)]= "email" name="email" id="email" placeholder="Enter Email Address" required autofocus> <br>
+    <br>
+
+    <label for="Password"> Password :</label>
+    <input type="Password" [(ngModel)]="password" name="password" id="password" placeholder="Enter Password" required> <br>
+    <br>
+
+    <hr>
+    <button type="submit"> Login</button>
+    <button> Cancel</button>
+
+
+    <br><br><br><br>
+    <a href="Register.html"> Dont have an account? SIGN IN </a>
+
+
+
+</div>
+</form>

@@ -1,0 +1,39 @@
+<br> <br> <br>
+<fieldset class="cal">
+     
+    <h3> Register</h3>
+    
+    <form action="login.html" (ngsubmit)="register()">
+        
+        <label for="name">Enter a name(*) : </label>
+        <input type="text" [(ngmodel)] = "name" name="name" id="name" placeholder="Enter the name" autofocus>
+        <br>
+        <br>
+
+        <label for="email">Enter an Email : </label>
+        <input type="email" [(ngmodel)] = "email" name="email" id="email" > <br>
+        <br>
+
+        <label for="password">Enter new password : </label>
+        <input type="password" [(ngmodel)] = "password" name="password" id="password" placeholder="enter the password"  >
+        <br>
+        <br>
+
+        <label for="password">Confirm Password : </label>
+        <input type="password" [(ngmodel)] = "confirmpassword" name="password" id="confirmpassword" placeholder="confirm Password" >
+        <br>
+        <br>
+
+        <label for="dob">Date of Birth : </label>
+        <input type="date" name="date" id="date" placeholder="dd/mm/yy" >
+        <br> <br>
+        <label for = "Contact number">Contact Number : </label>
+        <input type = "number" name ="Contact number" id = "contactnumber" placeholder="contact number"  >
+        <br>
+        <br>
+        <br>
+        <input type="submit" id="submit" value="Signup">
+
+    </form>
+
+</fieldset>
