@@ -3,24 +3,24 @@
      
     <h3> Register</h3>
     
-    <form action="login.html" (ngsubmit)="register()">
-        
+    <form  (ngSubmit)="register()">
+        <img src = "src/assets/images/book3.jpg">
         <label for="name">Enter a name(*) : </label>
-        <input type="text" [(ngmodel)] = "name" name="name" id="name" placeholder="Enter the name" autofocus>
+        <input type="text" [(ngModel)] = "name" name="name" id="name" placeholder="Enter the name" autofocus>
         <br>
         <br>
 
         <label for="email">Enter an Email : </label>
-        <input type="email" [(ngmodel)] = "email" name="email" id="email" > <br>
+        <input type="email" [(ngModel)] = "email" name="email" id="email" > <br>
         <br>
 
         <label for="password">Enter new password : </label>
-        <input type="password" [(ngmodel)] = "password" name="password" id="password" placeholder="enter the password"  >
+        <input type="password" [(ngModel)] = "password" name="password" id="password" placeholder="enter the password"  >
         <br>
         <br>
 
         <label for="password">Confirm Password : </label>
-        <input type="password" [(ngmodel)] = "confirmpassword" name="password" id="confirmpassword" placeholder="confirm Password" >
+        <input type="password" [(ngModel)] = "confirmpassword" name="password" id="confirmpassword" placeholder="confirm Password" >
         <br>
         <br>
 

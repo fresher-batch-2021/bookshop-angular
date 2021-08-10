@@ -25,7 +25,7 @@ export class LoginComponent implements OnInit {
      }
      else{
        alert("login successfull");
-       window.location.href="Register"
+       window.location.href="index.html"
      }
   }
 
